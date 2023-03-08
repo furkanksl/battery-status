@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 class BatteryLevelState extends GetxController {
   String batteryLevel = "";
   String batteryLevelLive = "";
-  List<dynamic> searchList = [];
 
   setBatteryLevel(String newLevel) {
     batteryLevel = newLevel;
